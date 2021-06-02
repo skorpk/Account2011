@@ -1,0 +1,27 @@
+USE RegisterCases
+GO
+ALTER TABLE dbo.t_ONK_USL ADD id SMALLINT
+GO
+ALTER TABLE dbo.t_DrugTherapy ADD rf_idONK_USL SMALLINT NULL
+GO
+
+CREATE TABLE dbo.t_DrugTherapy0
+(	
+	id SMALLINT NOT null,	
+	rf_idCase BIGINT NOT NULL,
+	rf_idN013 TINYINT NOT NULL,
+	rf_idV020 VARCHAR(6) NOT NULL,
+	rf_idV024 VARCHAR(10) NOT NULL,
+	rf_idONK_USL SMALLINT NULL
+) ON [RegisterCases]
+GO
+
+ALTER TABLE dbo.t_DrugTherapy0  WITH CHECK ADD  CONSTRAINT FK_DrugTherapy_Cases1 FOREIGN KEY(rf_idCase)
+REFERENCES dbo.t_Case (id)
+ON DELETE CASCADE
+GO
+
+ALTER TABLE dbo.t_DrugTherapy0 CHECK CONSTRAINT FK_DrugTherapy_Cases1
+GO
+GRANT INSERT,SELECT ON t_DrugTherapy0 TO db_RegisterCase
+

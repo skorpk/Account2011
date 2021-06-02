@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Account">
+</Property><Property Name="Solution File" Value="E:\Documents\SQL Server Management Studio\Projects\Account2011\Account.ssmssln">
+</Property><Property Name="Date" Value="18 апреля 2012 г.">
+</Property><Property Name="Time" Value="14:08">
+</Property></Properties><Event ErrorLevel="2" Project="Account2011" Source="Account2011.ssmssqlproj" Description="Unexpected error encountered. It is recommended that you restart the application as soon as possible.&#xA;&#xA;Error: No such interface supported&#xA;File: vsee\internal\inc\vscomptr.inl&#xA;Line number: 259">
+</Event><Event ErrorLevel="2" Project="AccountOMS" Source="..\AccountOMS\AccountOMS.ssmssqlproj" Description="Unexpected error encountered. It is recommended that you restart the application as soon as possible.&#xA;&#xA;Error: No such interface supported&#xA;File: vsee\internal\inc\vscomptr.inl&#xA;Line number: 259">
+</Event><Event ErrorLevel="0" Project="" Source="Account.ssmssln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Account.ssmssln" Description="Converted">
+</Event></UpgradeLog>

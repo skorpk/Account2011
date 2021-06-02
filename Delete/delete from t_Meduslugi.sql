@@ -1,0 +1,9 @@
+USE RegisterCases
+GO
+DECLARE @i TINYINT=1
+WHILE @i<50
+BEGIN
+	DELETE TOP(10000) FROM dbo.t_Meduslugi WHERE NOT EXISTS(SELECT * FROM dbo.t_Case WHERE id=rf_idCase)
+	--SELECT @@ROWCOUNT
+	SET @i=@i+1
+END 

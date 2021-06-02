@@ -1,0 +1,13 @@
+use RegisterCases
+go
+declare @p1 xml,
+		@p2 xml
+SELECT	@p1=HRM.ZL_LIST				
+FROM	OPENROWSET(BULK 'c:\Test\20120203\HRM501001T34_120202.xml',SINGLE_BLOB) HRM (ZL_LIST)
+
+SELECT	@p2=LRM.PERS_LIST				
+FROM	OPENROWSET(BULK 'c:\Test\20120203\LRM501001T34_120202.xml',SINGLE_BLOB) LRM (PERS_LIST)
+
+exec usp_InsertRegisterCaseDataLPU @doc=@p1,@patient=@p2,@file=0x504B0304140000000800B852943F7D81517C,@countSluch=2254
+go
+--exec usp_RegisterCaseDelete 3873

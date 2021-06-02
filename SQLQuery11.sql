@@ -1,0 +1,1 @@
+DISABLE TRIGGER InsertCompletedCaseIntoMU ON dbo.t_MES

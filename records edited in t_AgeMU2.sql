@@ -1,0 +1,15 @@
+USE RegisterCases
+GO
+BEGIN TRANSACTION
+SELECT * FROM t_AgeMU2 WHERE MU='70.3.139'
+
+DELETE FROM t_AgeMU2 WHERE MU='70.3.139'
+
+INSERT dbo.t_AgeMU2( MU, Sex, Age )
+VALUES ('70.3.139',2,50),('70.3.139',2,52),('70.3.139',2,56),('70.3.139',2,58),('70.3.139',2,62),('70.3.139',2,64),('70.3.139',2,68),('70.3.139',2,70)
+
+SELECT * FROM t_AgeMU2 WHERE MU='70.3.139'
+commit
+
+SELECT *
+FROM dbo.vw_sprMUCompletedCase WHERE MU='70.3.139'

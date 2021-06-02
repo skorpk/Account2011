@@ -1,0 +1,5 @@
+USE RegisterCases
+GO
+SELECT * FROM dbo.vw_getIdFileNumber WHERE FileNameHR='HRM104401T34_170100002'
+
+SELECT * FROM dbo.vw_RegisterPatientTEST WHERE rf_idFiles=98419 AND ID_Patient='C699E856-63D8-4F0B-B8E1-5B834ED8CCD7'

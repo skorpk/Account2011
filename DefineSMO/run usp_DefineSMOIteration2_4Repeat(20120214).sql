@@ -1,0 +1,8 @@
+use RegisterCases
+go
+exec usp_DefineSMOIteration2_4Repeat 3049
+exec usp_DefineSMOIteration2_4Repeat 3050
+exec usp_DefineSMOIteration2_4Repeat 3051
+exec usp_DefineSMOIteration2_4Repeat 3052
+exec usp_DefineSMOIteration2_4Repeat 3053
+exec usp_DefineSMOIteration2_4Repeat 3054

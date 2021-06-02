@@ -1,0 +1,23 @@
+use RegisterCases
+go
+declare @p1 xml,
+		@p2 XML,
+		@bfile VARBINARY(max),
+		@dateStart DATETIME
+
+SELECT @dateStart=GETDATE()		
+SELECT	@p1=HRM.ZL_LIST				
+FROM	OPENROWSET(BULK 'c:\Test\HRM125901T34_170300032.XML',SINGLE_BLOB) HRM (ZL_LIST)
+
+SELECT	@p2=LRM.PERS_LIST				
+FROM	OPENROWSET(BULK 'c:\Test\LRM125901T34_170300032.XML',SINGLE_BLOB) LRM (PERS_LIST)
+
+SELECT	@bfile=f.DataFile
+FROM	OPENROWSET(BULK 'c:\Test\HRM125901T34_170300032.zip',SINGLE_BLOB) f (DataFile)
+
+SET STATISTICS TIME ON
+
+exec dbo.usp_InsertRegisterCaseFileH @doc=@p1,@patient=@p2,@file=@bfile, @countSluch = 3 -- int
+
+SET STATISTICS TIME OFF
+

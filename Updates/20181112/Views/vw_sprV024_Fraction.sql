@@ -1,0 +1,11 @@
+USE RegisterCases
+GO
+if OBJECT_ID('vw_sprV024_Fraction',N'V') is not NULL
+	DROP VIEW vw_sprV024_Fraction
+GO
+CREATE VIEW vw_sprV024_Fraction
+AS
+SELECT IDDKK,CAST(SUBSTRING(IDDKK,CHARINDEX('fr',IDDKK)+2,2) AS tinyINT) AS MinValue ,CAST(SUBSTRING(IDDKK,CHARINDEX('-',IDDKK)+1,2) AS TINYINT) AS MaxValue
+FROM oms_nsi.dbo.sprV024 WHERE IDDKK LIKE 'fr%'
+GO
+GRANT SELECT ON  vw_sprV024_Fraction TO db_RegisterCase

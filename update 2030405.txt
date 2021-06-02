@@ -1,0 +1,4 @@
+1. usp_GetMeduslugiFromRegisterCaseDB.sql (AccountOMS)
+2. InsertCompletedCaseIntoMU.sql (AccountOMS)
+3. InsertCompletedCaseIntoMU(trigger).sql(RegisterCases)
+4. usp_RunFirstProcessControl.sql (RegisterCases)

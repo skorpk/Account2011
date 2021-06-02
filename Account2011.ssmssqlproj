@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Account2011">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="srvsql2-st1:VTFOMS\SKrainov">
+          <Created>2012-04-05T14:19:24.4502486+03:00</Created>
+          <Type>SQL</Type>
+          <Server>srvsql2-st1</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="test-skrainov:VTFOMS\SKrainov">
+          <Created>2014-01-13T13:03:15.6983555+03:00</Created>
+          <Type>SQL</Type>
+          <Server>test-skrainov</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="tserver:VTFOMS\SKrainov">
+          <Created>2011-09-15T15:37:57.6249507+03:00</Created>
+          <Type>SQL</Type>
+          <Server>tserver</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="IterationTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IterationTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RegisterCaseTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RegisterCaseTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AccountOMS_DB_Create.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AccountOMS_DB_Create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AccountOMSTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AccountOMSTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PolicyRegister_defined.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PolicyRegister_defined.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertCompletedCaseIntoMU(trigger).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertCompletedCaseIntoMU(trigger).sql</FullPath>
+        </FileNode>
+        <FileNode Name="RegistrationRegisterCaseReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RegistrationRegisterCaseReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Don't use.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Don't use.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Add TypePay computed column.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Add TypePay computed column.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20121031Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20121031Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20130121Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20130121Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Load data into t_UnreturnedCaseInAccount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Load data into t_UnreturnedCaseInAccount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetFileXSD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetFileXSD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMUUnionV001.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMUUnionV001.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_ErrorCaseMeduslugiInformation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_ErrorCaseMeduslugiInformation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_ErrorCasesInformation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_ErrorCasesInformation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="t_RefCaseAttachLPUItearion2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>t_RefCaseAttachLPUItearion2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprV019.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprV019.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_InsertRegisterCaseDataLPU2014 TEST.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_InsertRegisterCaseDataLPU2014 TEST.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_MSLocation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_MSLocation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_MeduslugiCSG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_MeduslugiCSG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprCSG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprCSG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprCSGSurgery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprCSGSurgery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprCSGTherapyMKB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprCSGTherapyMKB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetUnreturnedCaseInAccount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetUnreturnedCaseInAccount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetPlanOrders.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetPlanOrders.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_IsDefineSMOIteration2_4Repeat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_IsDefineSMOIteration2_4Repeat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMUNotCompletedCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMUNotCompletedCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMUCompletedCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMUCompletedCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMUWithAge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMUWithAge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_IsSpecialCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_IsSpecialCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_InsertRegisterCaseDataLPU_test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_InsertRegisterCaseDataLPU_test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_UpdateLPUCalendarNewCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_UpdateLPUCalendarNewCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetLPUCalendarNewCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetLPUCalendarNewCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_idCaseWithOutPRVSandProfilCompare.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_idCaseWithOutPRVSandProfilCompare.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XSD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XSD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetRegisterCasesXSD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetRegisterCasesXSD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_PlanOrders New.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_PlanOrders New.sql</FullPath>
+        </FileNode>
+        <FileNode Name="update AttachCodeLPU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>update AttachCodeLPU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_PlanOrders_OLD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_PlanOrders_OLD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunRepeatTestAndDefineSMO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunRepeatTestAndDefineSMO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetRegisterBackInformation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetRegisterBackInformation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.IsCompletedCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dbo.IsCompletedCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_dataPlanOrder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_dataPlanOrder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMuProfilPaymentByAge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMuProfilPaymentByAge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_sprMuPRVSAge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_sprMuPRVSAge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_PeopleDefineLPU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_PeopleDefineLPU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunTestsDefineSMOCreateSPTK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunTestsDefineSMOCreateSPTK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_Errors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_Errors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_InsertLPUEnableCalendar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_InsertLPUEnableCalendar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sprLPUEnableCalendar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sprLPUEnableCalendar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_IsCODEExists.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_IsCODEExists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="new views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>new views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sprAllErrors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sprAllErrors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_PlanOrdersReportTotal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_PlanOrdersReportTotal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetFilesNew(Master-Detail).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetFilesNew(Master-Detail).sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_MeduslugiMes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_MeduslugiMes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_HISTPEOPLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_HISTPEOPLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunFirstProcessControl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunFirstProcessControl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_FillBackTablesAfterAllIteration_2.1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_FillBackTablesAfterAllIteration_2.1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetPID indexes on PolicyRegister.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>usp_GetPID indexes on PolicyRegister.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetPID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetPID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vw_GetUnLoadPersonInPolicyDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vw_GetUnLoadPersonInPolicyDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_DefineSMOIteration2_4Repeat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_DefineSMOIteration2_4Repeat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_IsNumberRegisterExists.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_IsNumberRegisterExists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sprSMODisable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sprSMODisable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RegisterCaseDelete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RegisterCaseDelete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="computed columns.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>computed columns.sql</FullPath>
+        </FileNode>
+        <FileNode Name="t_PlanOrdersReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>t_PlanOrdersReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_PlanOrdersReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_PlanOrdersReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunProcessControl2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunProcessControl2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetFileUnLoad.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetFileUnLoad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunRegisterSP_TK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunRegisterSP_TK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetFiles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetFiles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_GetFileNameBack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fn_GetFileNameBack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_GetPID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fn_GetPID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_MonthName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fn_MonthName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunFillBackTablesAfterAllIteration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunFillBackTablesAfterAllIteration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_FillBackTablesAfterAllIteration(Don't Edit).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_FillBackTablesAfterAllIteration(Don't Edit).sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_GetProcessingZP1Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_GetProcessingZP1Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="getPID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>getPID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_PlanOrders.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fn_PlanOrders.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_DefineSMOIteration2_4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_DefineSMOIteration2_4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_DefineSMOIteration1_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_DefineSMOIteration1_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_FillBackTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_FillBackTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RegisterSP_TK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RegisterSP_TK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_RunProcessControl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_RunProcessControl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="oms_NSI.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>oms_NSI.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_InsertFilesZP1LPOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_InsertFilesZP1LPOG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="clear all tables on RegisterCase DB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>clear all tables on RegisterCase DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="data types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>data types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_InsertRegisterCaseDataLPU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_InsertRegisterCaseDataLPU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srvsql2-st1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srvsql2-st1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="backup_Restore_RegisterCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>backup_Restore_RegisterCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="StoredProcedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>StoredProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TableCreate_v1_2_old.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TableCreate_v1_2_old.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ErrorTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ErrorTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReturnTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReturnTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TableCreate_old.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tserver:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tserver</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TableCreate_old.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName>$/Account/AccountOMS_Scripts</SccProjectName>
+  <SccAuxPath />
+  <SccLocalPath>.</SccLocalPath>
+  <SccProvider>MSSCCI:Team Foundation Server MSSCCI Provider</SccProvider>
+</SqlWorkbenchSqlProject>
